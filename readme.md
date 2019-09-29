@@ -6,8 +6,20 @@
 wget -N --no-check-certificate https://raw.githubusercontent.com/jlw345/iptables/master/iptables.sh && chmod +x iptables.sh && bash iptables.sh
 
 
-
-复制代码 代码如下:chmod +x iptables.sh
-./iptables.sh
-设置iptables开机自动启动：
-复制代码 代码如下:chkconfig --lwww.e78.comevel 345 iptables on
+./ban_iptables.sh banbt
+# 封禁 BT、PT
+ 
+./ban_iptables.sh banspam
+# 封禁 SPAM（垃圾邮件）
+ 
+./ban_iptables.sh banall
+# 封禁 BT、PT+SPAM
+ 
+./ban_iptables.sh unbanbt
+# 解封 BT、PT
+ 
+./ban_iptables.sh unbanspam
+# 解封 SPAM（垃圾邮件）
+ 
+./ban_iptables.sh unbanall
+# 解封 BT、PT+SPAM
