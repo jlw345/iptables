@@ -3,7 +3,7 @@
 
 
 使用方法：
-wget -N --no-check-certificate https://raw.githubusercontent.com/jlw345/iptables/master/iptables.sh && chmod +x iptables.sh && bash iptables.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/jlw345/iptables/master/ban_iptables.sh && chmod +x ban_iptables.sh && bash ban_iptables.sh
 
 使用说明
 进入下载脚本的目录并运行脚本：
